@@ -342,7 +342,7 @@ public class arvoreBinariaAVL {
                     		System.out.println(novoValor);
                     		arvore.inserir(novoValor);
                     	} else {
-                    		int novoValor = rand.nextInt(valor + (2*valor));
+                    		int novoValor = rand.nextInt(valor + (5*valor));
                     		System.out.println(novoValor);
                     		arvore.inserir(novoValor);
                     	}
